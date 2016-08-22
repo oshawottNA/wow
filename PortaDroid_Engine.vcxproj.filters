@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="XxxExperimentsxxX">
+      <UniqueIdentifier>{b8900a44-e6a3-4a86-a4a4-0608ed5e1e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{bf52549c-8622-4940-8145-7f25d8dd5bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics">
+      <UniqueIdentifier>{ebe40bd5-6965-44e2-aa57-53173cb3b9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core Engine">
+      <UniqueIdentifier>{bb34ce40-8fa5-4622-87cf-aa7df257a5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Window">
+      <UniqueIdentifier>{70d49e78-801d-4d2b-8e6b-b27e4d6381ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Math">
+      <UniqueIdentifier>{cdea57bc-1811-4800-9157-a5c2282eebcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Systems">
+      <UniqueIdentifier>{3cd37122-6fc4-497f-a9a6-c1327a06f14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core Engine\Messaging">
+      <UniqueIdentifier>{f1771cfb-8895-40ff-82a4-22e0cfebae2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Serialization">
+      <UniqueIdentifier>{92941caa-b8dd-4218-8e59-0a8f85322458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\ObjectFactory">
+      <UniqueIdentifier>{2e25e413-4ef2-4965-9ae3-2aad79fb5b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{7b77c3f9-f464-4f44-bb27-e23af5af25b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArchetypedObjects">
+      <UniqueIdentifier>{42d3d764-6d4d-4395-91d6-fef714b000e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Supplements">
+      <UniqueIdentifier>{6291d397-69ec-4f01-837f-d79534daa0d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsSystem.cpp">
+      <Filter>Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="OBALCore.cpp">
+      <Filter>Systems\Core Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultText.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageRecipientList.cpp">
+      <Filter>Systems\Core Engine\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSource.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BackBufferSurfaceSprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureSource.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComposition.cpp">
+      <Filter>Systems\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>Supplements</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDSprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Systems\ObjectFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Experimental Stuff.txt">
+      <Filter>XxxExperimentsxxX</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXIncludes.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBases.h">
+      <Filter>Systems\Core Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsIncludes.h">
+      <Filter>Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsSystem.h">
+      <Filter>Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemsBase.h">
+      <Filter>Systems\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Systems\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="VMath.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultText.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLinkedList.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Heirarchy.h">
+      <Filter>Systems\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="OBALCore.h">
+      <Filter>Systems\Core Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Systems\Core Engine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageRecipientList.h">
+      <Filter>Systems\Core Engine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagingTransmitter.h">
+      <Filter>Systems\Core Engine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSource.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BackBufferSurfaceSprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSource.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDSprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Systems\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentCreator.h">
+      <Filter>Systems\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTypeIds.h">
+      <Filter>Systems\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComposition.h">
+      <Filter>Systems\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>Supplements</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Systems\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectLight.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="woodfloor.bmp">
+      <Filter>XxxExperimentsxxX</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
